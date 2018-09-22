@@ -1,0 +1,52 @@
+/*main.css*/
+/*cascading style sheets*/
+/*select what you want to style**/
+/*add properties which you want to change*/
+/*give those properties values which you want change them*/
+h1 {/*this affects font color*/
+	color: orange;
+	
+	background-color: gold
+	/*this affects font size */
+	font-size: 80px;
+	/*this underlines your word*/
+	text-decoration: underline;
+	/*type of font style*/
+	font-style:initial;
+}
+
+p {/*give those properties values which you want change them*/
+	/*this affects font color*/
+	color: #00ffff;
+	/*this affects font size */
+	font-size: 90px;
+	/*this underlines your word*/
+	text-decoration: unset;
+	/*this puts a shodow behind the writing*/
+	text-shadow: rgba(1);
+	/*this controls the alignment of your word*/
+	text-align:center;
+	 
+	background-color:#CCCCCC;
+}
+/*this selects all buttons on my page*/
+button { /*this changes backround color of the element*/
+	/*this affects backround color*/
+	background-color: tomato;
+	/*this affects font size */
+	font-color:white;
+	
+	border: none;
+	
+	padding: 20px 30px
+	
+	text-transform: uppercase;
+	
+	font-weight: bold;
+	
+	box-shadow: 5px 5px 5px grey;
+}
+body {
+   background-image: url("paper.gif");
+   
+}
